@@ -12,8 +12,6 @@ import {
 
 import * as api from "../api";
 
-//Action Creators
-
 export const getPost = (id) => async (dispatch) => {
   try {
     dispatch({ type: START_LOADING });
